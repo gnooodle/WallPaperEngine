@@ -44,8 +44,8 @@ U0 Main() {
     Cd("src/WallPaperEngine"); // Path to WallPaperEngine directory
     Cd(chosen); // To choice (necessary, bc all data files share same name, eg. 0047)
 
-    U64 srcFile = "WallPaper.HC.Z"; // In reality would be compressed <-V->
-    U64 destFile = "::/Adam/WallPaper.HC.Z";
+    U64 srcFile = "WallPaper.HC.Z"; // In reality would be compressed when in Temple
+    U64 destFile = "::/Adam/WallPaper.HC.Z"; // This too
 
     Print("\nMaking adjustments...\n");
     Copy(srcFile, destFile);
