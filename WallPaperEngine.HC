@@ -44,7 +44,7 @@ U0 Main() {
     Cd("src/WallPaperEngine"); // Path to WallPaperEngine directory
     Cd(chosen); // To choice (necessary, bc all data files share same name, eg. 0047)
 
-    U64 srcFile = "WallPaper.HC.Z";
+    U64 srcFile = "WallPaper.HC.Z"; // In reality would be compressed <-V->
     U64 destFile = "::/Adam/WallPaper.HC.Z";
 
     Print("\nMaking adjustments...\n");
