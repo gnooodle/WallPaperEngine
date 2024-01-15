@@ -2,7 +2,7 @@
 // To start, press [F5]
 
 U64 Color() {
-    U64 choice = GetStr;
+    U64 choice = GetStr; // Organization
     Print("\n");
 
     return choice;
@@ -38,11 +38,11 @@ U0 Main() {
     Print("> ");
     U64 chosen = Color;
     Print("Chosen: ");
-    Print(chosen);
+    Print(chosen); // Verify choice
     Print("\n");
 
-    Cd("src/WallPaperEngine");
-    Cd(chosen);
+    Cd("src/WallPaperEngine"); // Path to WallPaperEngine directory
+    Cd(chosen); // To choice (necessary, bc all data files share same name, eg. 0047)
 
     U64 srcFile = "WallPaper.HC.Z";
     U64 destFile = "::/Adam/WallPaper.HC.Z";
