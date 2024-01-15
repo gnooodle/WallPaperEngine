@@ -2,7 +2,7 @@
 A, so far, simple HolyC Wallpaper engine for TempleOS
 
 Probably soon to come:
-* Options for colors White, Brown, and Yellow
+* Options for colors White, Brown, and Yellow (not added because I was lazy due to an interference issue)
 
 Maybe? soon(not) to come:
 * Option to draw image(s) to use for Wallpaper decoration, in addition to the main color change
